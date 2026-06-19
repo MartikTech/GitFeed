@@ -222,11 +222,5 @@ document.getElementById('searchInput').addEventListener('input', e => {
   }, 400);
 });
 
-document.querySelectorAll('.nl').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.nl').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-  });
-});
 
 init();
